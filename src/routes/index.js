@@ -11,8 +11,8 @@ export const createRoutes = (store) => ({
   component: CoreLayout,
   indexRoute: Home,
   childRoutes: [
-    CounterRoute(store)
-  ]
+    CounterRoute(store),
+  ],
 });
 
 /*  Note: childRoutes can be chunked or otherwise loaded programmatically
